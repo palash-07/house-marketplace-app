@@ -172,7 +172,7 @@ function CreateListing() {
       timestamp: serverTimestamp(),
     };
 
-    formData.location = address
+    formDataCopy.location = address
     delete formDataCopy.images;
     delete formDataCopy.address;
     !formDataCopy.offer && delete formDataCopy.discountedPrice;
