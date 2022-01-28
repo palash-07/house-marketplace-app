@@ -14,6 +14,7 @@ import Spinner from "../component/Spinner";
 import { toast } from "react-toastify";
 
 function EditListing() {
+  // eslint-disable-next-line
   const [geolocationEnabled, setGeolocationEnabled] = useState(false);
   const [loading, setLoading] = useState(false);
   const [listing, setListing] = useState(null);
